@@ -1017,6 +1017,61 @@ p {
   line-height: 1.6;
 }
 
+/* ---------- Typical briefs ---------- */
+.brief-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+.brief-card {
+  position: relative;
+  display: grid;
+  align-content: start;
+  gap: 16px;
+  padding: 28px 26px 26px;
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--blue);
+  border-radius: var(--radius);
+  background: var(--white);
+  box-shadow: var(--shadow-soft);
+  transition:
+    transform 240ms var(--ease-out),
+    box-shadow 240ms ease,
+    border-color 240ms ease;
+}
+.brief-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 22px 46px rgba(6, 27, 58, 0.12);
+  border-left-color: var(--gold);
+}
+.brief-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.brief-tags span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 26px;
+  padding: 0 11px;
+  border-radius: 999px;
+  background: var(--blue-soft);
+  color: var(--blue);
+  font-size: 0.74rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.brief-card > p {
+  margin: 0;
+  color: #2c3a52;
+  font-size: 1.02rem;
+  line-height: 1.7;
+}
+.brief-card .learn-link {
+  font-size: 0.92rem;
+}
+
 /* ---------- Sectors ---------- */
 .sector-section {
   margin-top: var(--section-gap);
@@ -1267,6 +1322,50 @@ p {
   color: var(--muted);
   line-height: 1.7;
   animation: faq-open 240ms ease both;
+}
+
+/* ---------- Supply ticker ---------- */
+.ticker-section {
+  margin-top: var(--section-gap);
+  padding: 22px 0;
+  overflow: hidden;
+  border-block: 1px solid rgba(255, 255, 255, 0.12);
+  background: linear-gradient(90deg, var(--navy-deep), #08305f);
+  color: var(--white);
+}
+.ticker {
+  overflow: hidden;
+  mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent);
+}
+.ticker-track {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  animation: logo-scroll 46s linear infinite;
+}
+.ticker:hover .ticker-track {
+  animation-play-state: paused;
+}
+.ticker-track span {
+  position: relative;
+  padding: 0 34px;
+  font-family: var(--font-display);
+  font-size: clamp(1rem, 1.6vw, 1.3rem);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  color: rgba(255, 255, 255, 0.88);
+}
+.ticker-track span::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -4px;
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  background: var(--gold);
+  transform: translateY(-50%) rotate(45deg);
 }
 
 /* ---------- Request ---------- */
@@ -1809,6 +1908,18 @@ p {
   }
   .process-track {
     grid-template-columns: 1fr;
+  }
+  .brief-grid {
+    grid-template-columns: 1fr;
+  }
+  .brief-card {
+    padding: 22px 20px;
+  }
+  .ticker-section {
+    padding: 16px 0;
+  }
+  .ticker-track span {
+    padding: 0 22px;
   }
   .sector-grid {
     grid-template-columns: 1fr;
