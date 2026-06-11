@@ -1,22 +1,24 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Mexus Suppliers Limited is a citizen-owned Lusaka supplier serving office, institutional, agricultural, health, education, and operational procurement needs."
+      content="Mexus Suppliers Limited — a citizen-owned supply desk in Lusaka, Zambia. One request covers office, medical, agricultural, educational, and operational procurement."
     />
-    <title>Mexus Suppliers Limited | Lusaka, Zambia</title>
+    <title>Mexus Suppliers Limited | One Supply Desk. Every Operation.</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Inter:wght@400;500;600;700;800&family=Material+Symbols+Outlined"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="scroll-progress" aria-hidden="true"></div>
+
     <header class="site-header" id="top">
       <div class="mobile-header">
         <button
@@ -27,650 +29,546 @@
         >
           <span class="material-symbols-outlined">menu</span>
         </button>
-        <a
-          class="brand brand-mobile"
-          href="#top"
-          aria-label="Mexus Suppliers home"
-          ><img
-            class="brand-logo"
-            src="assets/branding/mexus-logo.png"
-            alt=""
-          /></a
-        >
-        <a class="icon-button" href="tel:+260971134286" aria-label="Call"
-          ><span class="material-symbols-outlined">call</span></a
-        >
+        <a class="brand brand-mobile" href="#top" aria-label="Mexus Suppliers home">
+          <img class="brand-logo" src="assets/branding/mexus-logo.png" alt="" />
+        </a>
+        <a class="icon-button" href="tel:+260971134286" aria-label="Call Mexus">
+          <span class="material-symbols-outlined">call</span>
+        </a>
       </div>
+
       <div class="shell desktop-header">
-        <a class="brand" href="#top" aria-label="Mexus Suppliers home"
-          ><img
-            class="brand-logo"
-            src="assets/branding/mexus-logo.png"
-            alt=""
-          /></a
-        >
+        <a class="brand" href="#top" aria-label="Mexus Suppliers home">
+          <img class="brand-logo" src="assets/branding/mexus-logo.png" alt="" />
+        </a>
         <form class="search-form" role="search">
-          <span class="material-symbols-outlined">search</span
-          ><input
+          <span class="material-symbols-outlined">search</span>
+          <input
             type="search"
             name="search"
-            aria-label="Search products and categories"
-            placeholder="Search office, print, medical, agriculture..."
-          /><button type="submit">Search</button>
+            aria-label="Search supply categories"
+            placeholder="Search a product, brand, or category..."
+          />
+          <button type="submit">Search</button>
         </form>
         <div class="header-actions">
-          <a class="quick-order" href="#request"
-            ><span class="material-symbols-outlined">receipt_long</span>Start a
-            Request</a
-          ><a class="cart-link" href="#request"
-            ><span class="material-symbols-outlined">request_quote</span
-            ><span>Request Quote</span></a
-          >
+          <a class="header-phone" href="tel:+260971134286">
+            <span class="material-symbols-outlined">call</span>
+            <span>+260 971 134 286</span>
+          </a>
+          <a class="btn btn-primary btn-compact" href="#request">
+            <span class="material-symbols-outlined">request_quote</span>Request a Quote
+          </a>
         </div>
       </div>
+
       <nav class="shell nav-row" aria-label="Primary navigation">
-        <a class="category-trigger" href="#categories"
-          ><span class="material-symbols-outlined">menu</span>Supply
-          Categories<span class="material-symbols-outlined"
-            >keyboard_arrow_down</span
-          ></a
-        >
         <div class="nav-links">
-          <a href="#top">Home</a><a href="#categories">Supply Lines</a
-          ><a href="#equipment">Equipment</a><a href="#why">Company</a
-          ><a href="#programs">Process</a><a href="#request">Request Quote</a>
+          <a href="#top">Home</a>
+          <a href="#categories">Supplies</a>
+          <a href="#showcase">Showcase</a>
+          <a href="#about">About</a>
+          <a href="#process">Process</a>
+          <a href="#sectors">Sectors</a>
+          <a href="#faq">FAQ</a>
+          <a href="#request">Contact</a>
         </div>
       </nav>
+
       <nav class="mobile-menu" aria-label="Mobile navigation">
-        <a href="#categories">Supply Categories</a
-        ><a href="#brands">Trusted Brands</a
-        ><a href="#equipment">Supply in Motion</a
-        ><a href="#programs">How We Work</a
-        ><a href="#request">Request a Quote</a>
+        <a href="#categories">Supplies</a>
+        <a href="#showcase">Showcase</a>
+        <a href="#about">About</a>
+        <a href="#process">Process</a>
+        <a href="#sectors">Sectors</a>
+        <a href="#faq">FAQ</a>
+        <a href="#request">Request a Quote</a>
       </nav>
     </header>
 
     <main>
-      <section class="shell hero" aria-labelledby="hero-title">
-        <div class="hero-copy">
-          <h1 id="hero-title">
-            <span>Supply for</span><strong>serious operations.</strong>
-          </h1>
-          <p>
-            Office equipment, printing systems, hardware, hospital materials,
-            agriculture inputs, uniforms, maintenance, and broader institutional
-            supply from Lusaka.
-          </p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="#categories"
-              ><span class="material-symbols-outlined">grid_view</span>Explore
-              Categories</a
-            ><a class="btn btn-secondary" href="#request"
-              ><span class="material-symbols-outlined">description</span>Request
-              a Quote</a
-            >
+      <!-- ============ HERO ============ -->
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="shell hero-inner">
+          <div class="hero-copy">
+            <p class="hero-eyebrow">
+              <span class="material-symbols-outlined">verified</span>
+              Citizen-owned &middot; Lusaka, Zambia
+            </p>
+            <h1 id="hero-title">
+              One request.<br /><em>Every supply line covered.</em>
+            </h1>
+            <p class="hero-lede">
+              Mexus Suppliers Limited sources, consolidates, and delivers what
+              offices, institutions, farms, and facilities need to keep running
+              &mdash; through a single accountable supply desk.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#categories">
+                <span class="material-symbols-outlined">grid_view</span>Explore Supplies
+              </a>
+              <a class="btn btn-ghost" href="#request">
+                <span class="material-symbols-outlined">description</span>Request a Quote
+              </a>
+            </div>
+            <ul class="hero-chips" aria-label="Key facts">
+              <li><span class="material-symbols-outlined">workspace_premium</span>ZPPA Reg. 50955</li>
+              <li><span class="material-symbols-outlined">category</span>16+ categories</li>
+              <li><span class="material-symbols-outlined">domain</span>6 sectors served</li>
+            </ul>
           </div>
-        </div>
-        <div class="hero-photo">
-          <img
-            src="assets/photos/hero-operational-supplies.png"
-            alt="Office, cleaning, safety, packaging, and operational supplies"
-          />
+          <div class="hero-media" aria-hidden="true">
+            <img
+              src="assets/photos/hero-operational-supplies.png"
+              alt=""
+              fetchpriority="high"
+            />
+            <div class="hero-card">
+              <span class="material-symbols-outlined">route</span>
+              <p><strong>Request &rarr; Source &rarr; Deliver</strong><br />One desk handles the whole journey.</p>
+            </div>
+          </div>
         </div>
       </section>
 
       <p class="shell search-status" role="status" aria-live="polite"></p>
 
-      <section class="shell benefit-strip" aria-label="Service benefits">
-        <article>
-          <span class="benefit-icon material-symbols-outlined"
-            >playlist_add_check</span
-          >
-          <div>
-            <h2>Request-led sourcing</h2>
-            <p>Requirements begin with your actual operational need.</p>
-          </div>
-        </article>
-        <article>
-          <span class="benefit-icon material-symbols-outlined"
-            >hub</span
-          >
-          <div>
-            <h2>Coordinated supply</h2>
-            <p>Related categories can be handled in one request.</p>
-          </div>
-        </article>
-        <article>
-          <span class="benefit-icon material-symbols-outlined">tune</span>
-          <div>
-            <h2>Specification matching</h2>
-            <p>Products and brands are aligned to the intended use.</p>
-          </div>
-        </article>
-        <article>
-          <span class="benefit-icon material-symbols-outlined"
-            >local_shipping</span
-          >
-          <div>
-            <h2>Delivery follow-through</h2>
-            <p>Clear coordination from request through fulfilment.</p>
-          </div>
-        </article>
+      <!-- ============ STATS ============ -->
+      <section class="shell stats-band" aria-label="Mexus at a glance" data-reveal="up">
+        <div class="stat" data-stagger>
+          <strong><span data-count="16">0</span>+</strong>
+          <span>Supply categories under one roof</span>
+        </div>
+        <div class="stat" data-stagger>
+          <strong><span data-count="6">0</span></strong>
+          <span>Operating sectors supported</span>
+        </div>
+        <div class="stat" data-stagger>
+          <strong><span data-count="8">0</span>+</strong>
+          <span>Trusted technology brands</span>
+        </div>
+        <div class="stat" data-stagger>
+          <strong><span data-count="100">0</span>%</strong>
+          <span>Zambian citizen-owned</span>
+        </div>
       </section>
 
-      <section class="brand-section" id="brands" aria-label="Technology brands">
+      <!-- ============ BRAND MARQUEE ============ -->
+      <section class="brand-section" id="brands" aria-label="Technology brands we source">
+        <p class="shell marquee-label">Sourcing genuine equipment from brands you already trust</p>
         <div class="logo-marquee" role="region" aria-label="Brand logos">
           <div class="logo-track">
-            <div class="logo-card">
-              <img src="assets/brands/canon.svg" alt="Canon" />
-            </div>
-            <div class="logo-card">
-              <img src="assets/brands/epson.svg" alt="Epson" />
-            </div>
-            <div class="logo-card">
-              <img src="assets/brands/hp.svg" alt="HP" />
-            </div>
-            <div class="logo-card">
-              <img src="assets/brands/brother.svg" alt="Brother" />
-            </div>
-            <div class="logo-card">
-              <img src="assets/brands/dell.svg" alt="Dell" />
-            </div>
-            <div class="logo-card">
-              <img src="assets/brands/lenovo.svg" alt="Lenovo" />
-            </div>
-            <div class="logo-card">
-              <img src="assets/brands/acer.svg" alt="Acer" />
-            </div>
-            <div class="logo-card">
-              <img src="assets/brands/asus.svg" alt="Asus" />
-            </div>
-            <div class="logo-card" aria-hidden="true">
-              <img src="assets/brands/canon.svg" alt="" />
-            </div>
-            <div class="logo-card" aria-hidden="true">
-              <img src="assets/brands/epson.svg" alt="" />
-            </div>
-            <div class="logo-card" aria-hidden="true">
-              <img src="assets/brands/hp.svg" alt="" />
-            </div>
-            <div class="logo-card" aria-hidden="true">
-              <img src="assets/brands/brother.svg" alt="" />
-            </div>
-            <div class="logo-card" aria-hidden="true">
-              <img src="assets/brands/dell.svg" alt="" />
-            </div>
-            <div class="logo-card" aria-hidden="true">
-              <img src="assets/brands/lenovo.svg" alt="" />
-            </div>
-            <div class="logo-card" aria-hidden="true">
-              <img src="assets/brands/acer.svg" alt="" />
-            </div>
-            <div class="logo-card" aria-hidden="true">
-              <img src="assets/brands/asus.svg" alt="" />
-            </div>
+            <div class="logo-card"><img src="assets/brands/canon.svg" alt="Canon" /></div>
+            <div class="logo-card"><img src="assets/brands/epson.svg" alt="Epson" /></div>
+            <div class="logo-card"><img src="assets/brands/hp.svg" alt="HP" /></div>
+            <div class="logo-card"><img src="assets/brands/brother.svg" alt="Brother" /></div>
+            <div class="logo-card"><img src="assets/brands/dell.svg" alt="Dell" /></div>
+            <div class="logo-card"><img src="assets/brands/lenovo.svg" alt="Lenovo" /></div>
+            <div class="logo-card"><img src="assets/brands/acer.svg" alt="Acer" /></div>
+            <div class="logo-card"><img src="assets/brands/asus.svg" alt="Asus" /></div>
+            <div class="logo-card" aria-hidden="true"><img src="assets/brands/canon.svg" alt="" /></div>
+            <div class="logo-card" aria-hidden="true"><img src="assets/brands/epson.svg" alt="" /></div>
+            <div class="logo-card" aria-hidden="true"><img src="assets/brands/hp.svg" alt="" /></div>
+            <div class="logo-card" aria-hidden="true"><img src="assets/brands/brother.svg" alt="" /></div>
+            <div class="logo-card" aria-hidden="true"><img src="assets/brands/dell.svg" alt="" /></div>
+            <div class="logo-card" aria-hidden="true"><img src="assets/brands/lenovo.svg" alt="" /></div>
+            <div class="logo-card" aria-hidden="true"><img src="assets/brands/acer.svg" alt="" /></div>
+            <div class="logo-card" aria-hidden="true"><img src="assets/brands/asus.svg" alt="" /></div>
           </div>
         </div>
       </section>
 
-      <section class="shell section categories-section" id="categories">
-        <div class="section-title">
-          <h2>What Mexus Supplies</h2>
-          <a href="#request"
-            >Request a custom item<span class="material-symbols-outlined"
-              >arrow_forward</span
-            ></a
-          >
-        </div>
-        <div class="category-grid" id="category-grid"></div>
-      </section>
-
-      <section class="shell section products-section" id="products">
-        <div class="section-title">
-          <h2>Mexus Suppliers Limited</h2>
-          <a href="#request"
-            >Start a request<span class="material-symbols-outlined"
-              >arrow_forward</span
-            ></a
-          >
-        </div>
-        <div class="supply-layout">
-          <article class="supply-feature">
-            <img
-              src="assets/photos/supplied-warehouse.png"
-              alt="Warehouse stocked with operational supplies"
-              loading="lazy"
-            />
-            <div>
-              <span class="tag">Company overview</span>
-              <h3>Multi-category supply partner.</h3>
-              <p>
-                Mexus coordinates office, institutional, agricultural, health,
-                education, and operational procurement through one supply desk.
-              </p>
-            </div>
-          </article>
-          <div class="supply-list">
-            <article>
-              <span class="material-symbols-outlined">merge_type</span>
-              <h3>Consolidated sourcing</h3>
-              <p>
-                Combine related products and operational requirements in one
-                coordinated request.
-              </p>
-            </article>
-            <article>
-              <span class="material-symbols-outlined">fact_check</span>
-              <h3>Requirement matching</h3>
-              <p>
-                Match specifications, quantities, preferred brands, timing, and
-                delivery needs before sourcing begins.
-              </p>
-            </article>
-            <article>
-              <span class="material-symbols-outlined">build_circle</span>
-              <h3>Operational continuity</h3>
-              <p>
-                Support can extend to spares, maintenance, repair, and repeat
-                procurement where required.
-              </p>
-            </article>
+      <!-- ============ CATEGORIES ============ -->
+      <section class="shell section" id="categories">
+        <div class="section-head" data-reveal="up">
+          <div>
+            <span class="eyebrow">Supply lines</span>
+            <h2>What Mexus supplies.</h2>
           </div>
+          <p>
+            Six supply lines cover everything from a single toner cartridge to a
+            full institutional fit-out. Don&rsquo;t see your item? Send it to the
+            request desk anyway &mdash; sourcing odd requirements is the job.
+          </p>
         </div>
+        <div class="category-grid" id="category-grid" data-reveal="up"></div>
       </section>
 
-      <section class="equipment-section" id="equipment">
-        <div class="shell equipment-intro">
+      <!-- ============ SHOWCASE ============ -->
+      <section class="showcase-section" id="showcase">
+        <div class="shell showcase-intro" data-reveal="up">
           <div>
             <span class="eyebrow">Supply in motion</span>
             <h2>From office desks to field equipment.</h2>
           </div>
           <p>
-            Explore the operational categories Mexus supports across offices,
-            institutions, clinics, schools, and field-facing teams.
+            A closer look at the environments we equip every week. Pick a line
+            below &mdash; or just watch it rotate.
           </p>
         </div>
-        <div class="shell equipment-stage">
-          <div
-            class="equipment-tabs"
-            role="tablist"
-            aria-label="Supply categories"
-          >
-            <button
-              class="equipment-tab is-active"
-              type="button"
-              role="tab"
-              aria-selected="true"
-              data-equipment="0"
-            >
-              <span>01</span>Office
-            </button>
-            <button
-              class="equipment-tab"
-              type="button"
-              role="tab"
-              aria-selected="false"
-              data-equipment="1"
-            >
-              <span>02</span>Print
-            </button>
-            <button
-              class="equipment-tab"
-              type="button"
-              role="tab"
-              aria-selected="false"
-              data-equipment="2"
-            >
-              <span>03</span>Medical
-            </button>
-            <button
-              class="equipment-tab"
-              type="button"
-              role="tab"
-              aria-selected="false"
-              data-equipment="3"
-            >
-              <span>04</span>School
-            </button>
-            <button
-              class="equipment-tab"
-              type="button"
-              role="tab"
-              aria-selected="false"
-              data-equipment="4"
-            >
-              <span>05</span>Field
-            </button>
-            <button
-              class="equipment-tab"
-              type="button"
-              role="tab"
-              aria-selected="false"
-              data-equipment="5"
-            >
-              <span>06</span>Technology
-            </button>
+        <div class="shell showcase-stage" data-reveal="zoom">
+          <div class="showcase-tabs" role="tablist" aria-label="Supply line showcase">
+            <button class="showcase-tab is-active" type="button" role="tab" aria-selected="true" data-showcase="0"><span>01</span>Office</button>
+            <button class="showcase-tab" type="button" role="tab" aria-selected="false" data-showcase="1"><span>02</span>Print</button>
+            <button class="showcase-tab" type="button" role="tab" aria-selected="false" data-showcase="2"><span>03</span>Medical</button>
+            <button class="showcase-tab" type="button" role="tab" aria-selected="false" data-showcase="3"><span>04</span>School</button>
+            <button class="showcase-tab" type="button" role="tab" aria-selected="false" data-showcase="4"><span>05</span>Field</button>
+            <button class="showcase-tab" type="button" role="tab" aria-selected="false" data-showcase="5"><span>06</span>Technology</button>
           </div>
-          <div class="equipment-visual" aria-live="polite">
+          <div class="showcase-visual" aria-live="polite">
             <img
-              id="equipment-image"
-              src="assets/photos/supplied-office.png"
-              alt="Office stationery and workplace equipment"
+              id="showcase-image"
+              src="assets/scenes/scene-office.svg"
+              alt="Illustration of an office desk with drawers"
             />
-            <span class="equipment-number" id="equipment-number">01</span>
+            <span class="showcase-number" id="showcase-number">01</span>
           </div>
-          <div class="equipment-copy">
-            <span class="tag" id="equipment-label">Office</span>
-            <h3 id="equipment-title">Office equipment and furniture.</h3>
-            <p id="equipment-text">
-              Desks, chairs, office equipment, storage, school desks, and
-              fit-out support for productive working environments.
+          <div class="showcase-copy">
+            <span class="tag" id="showcase-label">Office</span>
+            <h3 id="showcase-title">Workspaces that work.</h3>
+            <p id="showcase-text">
+              Desks, ergonomic seating, storage, and full fit-out support that
+              turn empty rooms into productive working environments.
             </p>
-            <a class="learn-link" href="#request"
-              >Request this supply line<span class="material-symbols-outlined"
-                >arrow_forward</span
-              ></a
-            >
+            <a class="learn-link" href="#request">
+              Request this supply line<span class="material-symbols-outlined">arrow_forward</span>
+            </a>
           </div>
         </div>
       </section>
 
-      <section class="shell section why-section" id="why">
-        <h2>Request. Source. Deliver.</h2>
-        <div class="why-grid">
+      <!-- ============ ABOUT ============ -->
+      <section class="shell section about-section" id="about">
+        <div class="about-media" data-reveal="left">
+          <img
+            class="about-photo-main"
+            src="assets/photos/supplied-packaging.png"
+            alt="Packaging materials prepared in the Mexus warehouse"
+            loading="lazy"
+          />
+          <img
+            class="about-photo-float"
+            src="assets/scenes/scene-logistics.svg"
+            alt="Illustration of packed parcels ready for dispatch"
+            loading="lazy"
+          />
+          <div class="about-badge">
+            <span class="material-symbols-outlined">handshake</span>
+            <p>Built in Lusaka,<br />for Zambian operations</p>
+          </div>
+        </div>
+        <div class="about-copy" data-reveal="right">
+          <span class="eyebrow">Who we are</span>
+          <h2>A supply partner, not just a vendor.</h2>
           <p>
-            <span class="material-symbols-outlined">check_circle</span>Start
-            from the actual need, urgency, and use case
+            Most procurement pain comes from fragmentation &mdash; five suppliers,
+            five invoices, five follow-up calls. Mexus was founded to collapse
+            that into one conversation. We take your requirement list, match
+            each line to the right product and brand, and stay accountable until
+            everything is delivered and working.
           </p>
-          <p>
-            <span class="material-symbols-outlined">check_circle</span>Match
-            each requirement to the right supply line
-          </p>
-          <p>
-            <span class="material-symbols-outlined">check_circle</span
-            >Consolidate related needs to reduce fragmented sourcing
-          </p>
-          <p>
-            <span class="material-symbols-outlined">check_circle</span>Deliver
-            with continuity and operational support
-          </p>
+          <ul class="about-values">
+            <li data-stagger>
+              <span class="material-symbols-outlined">person_pin_circle</span>
+              <div>
+                <h3>Locally rooted</h3>
+                <p>100% citizen-owned and based at Libala South, Lusaka.</p>
+              </div>
+            </li>
+            <li data-stagger>
+              <span class="material-symbols-outlined">fact_check</span>
+              <div>
+                <h3>Specification first</h3>
+                <p>We confirm the intended use before we ever talk price.</p>
+              </div>
+            </li>
+            <li data-stagger>
+              <span class="material-symbols-outlined">all_inclusive</span>
+              <div>
+                <h3>Beyond delivery</h3>
+                <p>Repairs, spares, and repeat orders stay on the same desk.</p>
+              </div>
+            </li>
+          </ul>
+          <a class="btn btn-primary" href="#request">
+            <span class="material-symbols-outlined">forum</span>Talk to the desk
+          </a>
         </div>
       </section>
 
-      <section class="shell section programs-section" id="programs">
-        <div class="section-title">
-          <h2>Clearer Sourcing. Cleaner Execution.</h2>
-          <a href="#request"
-            >Build your order<span class="material-symbols-outlined"
-              >arrow_forward</span
-            ></a
-          >
-        </div>
-        <div class="program-grid" id="program-grid"></div>
-      </section>
-
-      <section class="sector-section">
+      <!-- ============ PROCESS ============ -->
+      <section class="process-section" id="process">
         <div class="shell">
-          <div class="section-title sector-title">
+          <div class="section-head section-head-light" data-reveal="up">
             <div>
-              <span class="eyebrow">Where we support</span>
-              <h2>One supplier across different operating environments.</h2>
+              <span class="eyebrow">How it works</span>
+              <h2>Four steps. Zero chasing.</h2>
             </div>
             <p>
-              Categories are organized around real client use rather than a
-              narrow catalogue: workplaces, facilities, fleets, schools,
-              clinics, farms, and broader institutional operations.
+              Every engagement follows the same clear path, whether it&rsquo;s a
+              box of toner or a multi-site fit-out.
             </p>
           </div>
-          <div class="sector-grid">
-            <article class="sector-card">
-              <img
-                src="assets/photos/supplied-office.png"
-                alt="Office stationery and workplace equipment"
-                loading="lazy"
-              />
-              <span class="material-symbols-outlined">corporate_fare</span>
-              <h3>Offices & Institutions</h3>
-              <p>
-                Furniture, stationery, printing, technology, and everyday
-                operational consumables.
-              </p>
+          <ol class="process-track" data-reveal="up">
+            <li class="process-step" data-stagger>
+              <span class="process-num">1</span>
+              <h3>Brief us</h3>
+              <p>Send your items, quantities, preferred brands, location, and timing &mdash; in whatever format you have.</p>
+            </li>
+            <li class="process-step" data-stagger>
+              <span class="process-num">2</span>
+              <h3>We scope &amp; source</h3>
+              <p>Each line is matched to vetted suppliers, and specifications are confirmed against the intended use.</p>
+            </li>
+            <li class="process-step" data-stagger>
+              <span class="process-num">3</span>
+              <h3>You approve one quote</h3>
+              <p>A single consolidated quotation with clear pricing replaces a stack of competing paperwork.</p>
+            </li>
+            <li class="process-step" data-stagger>
+              <span class="process-num">4</span>
+              <h3>We deliver &amp; support</h3>
+              <p>Coordinated delivery, then ongoing support for maintenance, spares, and repeat supply.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- ============ SECTORS ============ -->
+      <section class="sector-section" id="sectors">
+        <div class="shell">
+          <div class="section-head" data-reveal="up">
+            <div>
+              <span class="eyebrow">Where we work</span>
+              <h2>Built for every operating environment.</h2>
+            </div>
+            <p>
+              The same desk serves very different worlds &mdash; each sector card
+              below is a door into a tailored supply conversation.
+            </p>
+          </div>
+          <div class="sector-grid" data-reveal="up">
+            <article class="sector-card" data-stagger>
+              <span class="sector-num">01</span>
+              <span class="sector-icon material-symbols-outlined">corporate_fare</span>
+              <h3>Offices &amp; Institutions</h3>
+              <p>Everything a working building consumes, from furniture to everyday consumables.</p>
             </article>
-            <article class="sector-card">
-              <img
-                src="assets/photos/supplied-mixed-supplies.png"
-                alt="Mixed institutional and operational supplies"
-                loading="lazy"
-              />
-              <span class="material-symbols-outlined">local_hospital</span>
+            <article class="sector-card" data-stagger>
+              <span class="sector-num">02</span>
+              <span class="sector-icon material-symbols-outlined">local_hospital</span>
               <h3>Health Facilities</h3>
-              <p>
-                Hospital materials and equipment support for clinics,
-                facilities, and institutional buyers.
-              </p>
+              <p>Hospital materials and equipment sourced with the urgency clinical work demands.</p>
             </article>
-            <article class="sector-card">
-              <img
-                src="assets/photos/supplied-office.png"
-                alt="Stationery and office supplies for education"
-                loading="lazy"
-              />
-              <span class="material-symbols-outlined">school</span>
+            <article class="sector-card" data-stagger>
+              <span class="sector-num">03</span>
+              <span class="sector-icon material-symbols-outlined">school</span>
               <h3>Education</h3>
-              <p>
-                School desks, classroom furniture, stationery, document systems,
-                and academic essentials.
-              </p>
+              <p>Classroom furniture, stationery, and document systems for schools and colleges.</p>
             </article>
-            <article class="sector-card">
-              <img
-                src="assets/photos/supplied-food-packaging.png"
-                alt="Food service and sustainable packaging supplies"
-                loading="lazy"
-              />
-              <span class="material-symbols-outlined">agriculture</span>
-              <h3>Agriculture & Field</h3>
-              <p>
-                Agriculture inputs, equipment, hardware, uniforms, PPE, and
-                field-facing support.
-              </p>
+            <article class="sector-card" data-stagger>
+              <span class="sector-num">04</span>
+              <span class="sector-icon material-symbols-outlined">agriculture</span>
+              <h3>Agriculture</h3>
+              <p>Farm inputs, field equipment, and the workwear that keeps crews protected.</p>
             </article>
-            <article class="sector-card">
-              <img
-                src="assets/photos/supplied-ppe.png"
-                alt="Protective equipment for maintenance and field work"
-                loading="lazy"
-              />
-              <span class="material-symbols-outlined">directions_car</span>
-              <h3>Fleet & Maintenance</h3>
-              <p>
-                Motor vehicle spare parts, electrical items, tools, repairs, and
-                general maintenance needs.
-              </p>
+            <article class="sector-card" data-stagger>
+              <span class="sector-num">05</span>
+              <span class="sector-icon material-symbols-outlined">directions_car</span>
+              <h3>Fleet &amp; Maintenance</h3>
+              <p>Vehicle spares, electricals, and tools that keep fleets and facilities moving.</p>
             </article>
-            <article class="sector-card">
-              <img
-                src="assets/photos/supplied-warehouse.png"
-                alt="Warehouse inventory ready for procurement and delivery"
-                loading="lazy"
-              />
-              <span class="material-symbols-outlined">inventory</span>
+            <article class="sector-card" data-stagger>
+              <span class="sector-num">06</span>
+              <span class="sector-icon material-symbols-outlined">inventory_2</span>
               <h3>Broader Procurement</h3>
-              <p>
-                Foodstuffs, beverages, trade brokerage, and consolidated
-                sourcing for wider requirements.
-              </p>
+              <p>Foodstuffs, beverages, and trade brokerage for requirements outside the usual lanes.</p>
             </article>
           </div>
         </div>
       </section>
 
-      <section
-        class="shell credentials-section"
-        id="credentials"
-        aria-labelledby="credentials-title"
-      >
-        <div class="credentials-copy">
-          <span class="eyebrow">Company credentials</span>
-          <h2 id="credentials-title">Supplier verification details.</h2>
-          <p>
-            Reference information for procurement onboarding and supplier
-            verification.
-          </p>
-          <a class="btn btn-primary" href="#request"
-            ><span class="material-symbols-outlined">description</span>Start a
-            Request</a
-          >
+      <!-- ============ COMMITMENTS ============ -->
+      <section class="commit-section" aria-labelledby="commit-title">
+        <div class="shell">
+          <div class="section-head section-head-dark" data-reveal="up">
+            <div>
+              <span class="eyebrow">Our promise</span>
+              <h2 id="commit-title">What working with Mexus feels like.</h2>
+            </div>
+          </div>
+          <div class="commit-grid" data-reveal="up">
+            <article data-stagger>
+              <span class="material-symbols-outlined">support_agent</span>
+              <h3>One accountable contact</h3>
+              <p>No bouncing between departments. The desk that takes your request owns it to the end.</p>
+            </article>
+            <article data-stagger>
+              <span class="material-symbols-outlined">verified_user</span>
+              <h3>Procurement-ready paperwork</h3>
+              <p>Registration, tax, and compliance documents are always current and ready for your onboarding team.</p>
+            </article>
+            <article data-stagger>
+              <span class="material-symbols-outlined">update</span>
+              <h3>Honest timelines</h3>
+              <p>We quote delivery dates we can keep &mdash; and flag risks early instead of going quiet.</p>
+            </article>
+          </div>
         </div>
-        <dl class="credential-list">
-          <div>
+      </section>
+
+      <!-- ============ CREDENTIALS ============ -->
+      <section class="shell section credentials-section" id="credentials" aria-labelledby="credentials-title">
+        <div class="credentials-copy" data-reveal="left">
+          <span class="eyebrow">Company credentials</span>
+          <h2 id="credentials-title">Verified, registered, ready to onboard.</h2>
+          <p>
+            Reference numbers for supplier verification, copied straight from our
+            statutory registrations.
+          </p>
+        </div>
+        <dl class="credential-list" data-reveal="right">
+          <div data-stagger>
             <dt>Company number</dt>
             <dd>120220027672</dd>
           </div>
-          <div>
+          <div data-stagger>
             <dt>TPIN</dt>
             <dd>2754095858</dd>
           </div>
-          <div>
+          <div data-stagger>
             <dt>ZPPA registration</dt>
             <dd>50955</dd>
           </div>
         </dl>
       </section>
 
-      <section class="shell faq-section" aria-labelledby="faq-title">
-        <div class="faq-heading">
+      <!-- ============ FAQ ============ -->
+      <section class="shell faq-section" id="faq" aria-labelledby="faq-title">
+        <div class="faq-heading" data-reveal="left">
           <span class="eyebrow">Common questions</span>
-          <h2 id="faq-title">Before you send a supply request.</h2>
+          <h2 id="faq-title">Before you press send.</h2>
           <p>
-            Provide the clearest product description, quantities, preferred
-            brands, location, and timing available.
+            Quick answers to the questions new clients ask most. Anything else,
+            the request desk replies fast.
           </p>
         </div>
-        <div class="faq-list">
+        <div class="faq-list" data-reveal="right">
           <details open>
-            <summary>
-              What categories can Mexus source?<span
-                class="material-symbols-outlined"
-                >add</span
-              >
-            </summary>
+            <summary>What can Mexus source?<span class="material-symbols-outlined">add</span></summary>
             <p>
-              Office equipment and furniture, printing systems, computer
-              accessories, hardware, vehicle spares, uniforms, PPE, cleaning
-              materials, hospital materials, agriculture inputs, school
-              furniture, maintenance, foodstuffs, beverages, and trade
-              brokerage.
+              Anything within our six supply lines above &mdash; and quite a lot
+              outside them. If an item isn&rsquo;t listed, send it anyway;
+              sourcing unusual requirements is part of the service.
             </p>
           </details>
           <details>
-            <summary>
-              Can I request several categories together?<span
-                class="material-symbols-outlined"
-                >add</span
-              >
-            </summary>
+            <summary>Can I combine several categories in one request?<span class="material-symbols-outlined">add</span></summary>
             <p>
-              Yes. Related requirements can be consolidated into one request to
-              reduce fragmented sourcing and repeated follow-up.
+              Yes &mdash; that&rsquo;s the point. Related requirements are
+              consolidated into a single quotation so you deal with one supplier
+              instead of five.
             </p>
           </details>
           <details>
-            <summary>
-              What information should I include?<span
-                class="material-symbols-outlined"
-                >add</span
-              >
-            </summary>
+            <summary>What should my request include?<span class="material-symbols-outlined">add</span></summary>
             <p>
-              Include item names or specifications, quantities, preferred brands
-              where relevant, required delivery location, and expected timing.
+              Item names or specifications, quantities, preferred brands where it
+              matters, the delivery location, and your expected timing. Rough
+              lists are fine &mdash; we&rsquo;ll tidy them up with you.
             </p>
           </details>
           <details>
-            <summary>
-              Can Mexus support ongoing maintenance?<span
-                class="material-symbols-outlined"
-                >add</span
-              >
-            </summary>
+            <summary>Does support continue after delivery?<span class="material-symbols-outlined">add</span></summary>
             <p>
-              Yes. Requests can include equipment repair, maintenance, spares,
-              and follow-on operational support where relevant.
+              Yes. Equipment repair, maintenance, spares, and repeat procurement
+              all stay with the same desk that handled your original order.
             </p>
           </details>
         </div>
       </section>
 
+      <!-- ============ REQUEST ============ -->
       <section class="shell section request-section" id="request">
-        <div class="request-panel">
-          <div>
+        <div class="request-panel" data-reveal="zoom">
+          <div class="request-copy">
             <span class="tag">Request desk</span>
-            <h2>Start your next supply request.</h2>
+            <h2>Tell us what you need.</h2>
             <p>
-              Mexus is ready to support office equipment, printing systems,
-              hardware, maintenance, agriculture inputs, hospital materials,
-              uniforms, and broader operational supply.
+              Share your list and we&rsquo;ll come back with one consolidated
+              quote. Prefer to talk first? Every channel below reaches a person,
+              not a queue.
             </p>
+            <ul class="contact-channels">
+              <li>
+                <span class="material-symbols-outlined">call</span>
+                <div>
+                  <strong>Call us</strong>
+                  <a href="tel:+260971134286">+260 971 134 286</a>
+                  <a href="tel:+260967499862">+260 967 499 862</a>
+                </div>
+              </li>
+              <li>
+                <span class="material-symbols-outlined">mail</span>
+                <div>
+                  <strong>Email</strong>
+                  <a href="mailto:msiamutondo@gmail.com">msiamutondo@gmail.com</a>
+                </div>
+              </li>
+              <li>
+                <span class="material-symbols-outlined">location_on</span>
+                <div>
+                  <strong>Visit</strong>
+                  <p>Plot No. 26185, Hillview, Libala South, Lusaka, Zambia</p>
+                </div>
+              </li>
+            </ul>
           </div>
           <form class="quote-form">
-            <label
-              >Name<input
-                type="text"
-                name="name"
-                autocomplete="name"
-                placeholder="Your name"
-                required /></label
-            ><label
-              >Email<input
-                type="email"
-                name="email"
-                autocomplete="email"
-                placeholder="you@company.com"
-                required /></label
-            ><label class="form-wide"
-              >Product needs<textarea
+            <label>
+              Name
+              <input type="text" name="name" autocomplete="name" placeholder="Your name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" autocomplete="email" placeholder="you@company.com" required />
+            </label>
+            <label class="form-wide">
+              What do you need?
+              <textarea
                 name="message"
-                rows="4"
-                placeholder="Office equipment, printing, hardware, hospital materials, agriculture inputs..."
+                rows="5"
+                placeholder="e.g. 12 office desks, 2 Canon printers with toner, 40 staff uniforms — delivered to Lusaka by end of month"
                 required
-              ></textarea></label
-            ><button class="btn btn-primary form-wide" type="submit">
-              <span class="material-symbols-outlined">send</span>Request a Quote
+              ></textarea>
+            </label>
+            <button class="btn btn-primary form-wide" type="submit">
+              <span class="material-symbols-outlined">send</span>Send Request
             </button>
-            <p
-              class="quote-status form-wide"
-              role="status"
-              aria-live="polite"
-            ></p>
+            <p class="quote-status form-wide" role="status" aria-live="polite"></p>
           </form>
         </div>
       </section>
-
     </main>
 
     <footer class="site-footer">
       <div class="shell footer-inner">
         <div class="footer-company">
-          <a class="brand footer-brand" href="#top"
-            aria-label="Mexus Suppliers home"
-            ><img
-              class="brand-logo"
-              src="assets/branding/mexus-logo.png"
-              alt=""
-            /></a
-          >
+          <a class="brand footer-brand" href="#top" aria-label="Mexus Suppliers home">
+            <img class="brand-logo" src="assets/branding/mexus-logo.png" alt="" />
+          </a>
           <p>
-            Citizen-owned multi-category supply partner serving operational and
-            institutional procurement needs from Lusaka.
+            One supply desk for every operation &mdash; citizen-owned and serving
+            institutional procurement from Lusaka.
           </p>
         </div>
         <div class="footer-column">
           <h2>Explore</h2>
           <nav>
-            <a href="#categories">Supply Lines</a
-            ><a href="#equipment">Equipment</a><a href="#why">Company</a
-            ><a href="#programs">Process</a>
+            <a href="#categories">Supplies</a>
+            <a href="#showcase">Showcase</a>
+            <a href="#about">About</a>
+            <a href="#sectors">Sectors</a>
           </nav>
         </div>
         <div class="footer-column">
@@ -686,230 +584,205 @@
         </div>
       </div>
       <p class="copyright">
-        &copy; <span id="current-year">2026</span> Mexus Suppliers Limited. All
-        rights reserved.
+        &copy; <span id="current-year">2026</span> Mexus Suppliers Limited. All rights reserved.
       </p>
     </footer>
 
     <script>
-      const menuButton = document.querySelector(".menu-toggle");
-      const mobileMenu = document.querySelector(".mobile-menu");
-      const searchForm = document.querySelector(".search-form");
-      const searchStatus = document.querySelector(".search-status");
-      const quoteForm = document.querySelector(".quote-form");
-      const quoteStatus = document.querySelector(".quote-status");
+      const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+      /* ---------- Category cards (single source of truth for supply lines) ---------- */
       const categories = [
-        [
-          "Office Equipment & Furniture",
-          "Office equipment, desks, chairs, stationery, consumables, and furniture solutions.",
-          "assets/photos/supplied-office.png",
-        ],
-        [
-          "Printing Systems & Accessories",
-          "Printing systems, Canon and Epson support, toner, and computer accessories.",
-          "assets/photos/supplied-mixed-supplies.png",
-        ],
-        [
-          "Hardware, Spares & Utilities",
-          "Electrical items, general hardware, and motor vehicle spare parts.",
-          "assets/photos/supplied-warehouse.png",
-        ],
-        [
-          "Uniforms, PPE & Cleaning",
-          "Uniforms, protective clothing, cleaning materials, and sanitation supplies.",
-          "assets/photos/supplied-cleaning.png",
-        ],
-        [
-          "Hospital, Agriculture & School",
-          "Hospital materials, agriculture inputs, school desks, and educational furniture.",
-          "assets/photos/supplied-mixed-supplies.png",
-        ],
-        [
-          "Maintenance, Food & Brokerage",
-          "Equipment repair, maintenance, foodstuffs, beverages, and broader trade brokerage.",
-          "assets/photos/supplied-food-packaging.png",
-        ],
-      ];
-      const programs = [
-        [
-          "Start from the need",
-          "Requirements are framed around the actual use case, urgency, and category relevance.",
-          "assets/photos/supplied-warehouse.png",
-        ],
-        [
-          "Match the right supply line",
-          "Items, services, and support needs are aligned to the category that best fits the request.",
-          "assets/photos/supplied-mixed-supplies.png",
-        ],
-        [
-          "Consolidate the work",
-          "Related needs are coordinated together to reduce fragmentation across suppliers and follow-ups.",
-          "assets/photos/supplied-packaging.png",
-        ],
-        [
-          "Deliver with continuity",
-          "Delivery is supported by repair, maintenance, printing, and broader procurement support where needed.",
-          "assets/photos/supplied-ppe.png",
-        ],
-      ];
-      const equipmentItems = [
         {
-          number: "01",
-          label: "Office",
-          title: "Office equipment and furniture.",
-          text: "Desks, chairs, office equipment, storage, school desks, and fit-out support for productive working environments.",
+          title: "Office Equipment & Furniture",
+          text: "Desks, chairs, storage, and full fit-out support for productive workspaces.",
           image: "assets/photos/supplied-office.png",
-          alt: "Office stationery and workplace equipment",
+          icon: "chair",
         },
         {
-          number: "02",
-          label: "Print",
-          title: "Printing systems and accessories.",
-          text: "Canon and Epson print systems, toner, computer accessories, and document support for offices and institutions.",
+          title: "Printing Systems & Technology",
+          text: "Canon and Epson print systems, toner, computers, and accessories.",
           image: "assets/photos/supplied-mixed-supplies.png",
-          alt: "Mixed office and operational supplies",
+          icon: "print",
         },
         {
-          number: "03",
-          label: "Medical",
-          title: "Hospital materials and equipment.",
-          text: "Medical and hospital support lines positioned for clinics, health facilities, and institutional buyers.",
-          image: "assets/photos/supplied-cleaning.png",
-          alt: "Cleaning and sanitation supplies",
+          title: "Hardware & Vehicle Spares",
+          text: "Electrical items, general hardware, and motor vehicle spare parts.",
+          image: "assets/photos/supplied-warehouse.png",
+          icon: "construction",
         },
         {
-          number: "04",
-          label: "School",
-          title: "Stationery and education support.",
-          text: "Stationery, school desks, classroom furniture, document systems, and day-to-day academic essentials.",
-          image: "assets/photos/supplied-office.png",
-          alt: "Stationery and office supplies for education",
-        },
-        {
-          number: "05",
-          label: "Field",
-          title: "Agriculture and operational supply.",
-          text: "Agriculture inputs, equipment, hardware, uniforms, PPE, and wider field-facing support requirements.",
+          title: "Uniforms, PPE & Cleaning",
+          text: "Workwear, protective clothing, cleaning materials, and sanitation supplies.",
           image: "assets/photos/supplied-ppe.png",
-          alt: "Protective equipment for field operations",
+          icon: "apparel",
         },
         {
-          number: "06",
-          label: "Technology",
-          title: "Computing and office technology.",
-          text: "Laptops, computer accessories, document technology, and practical equipment for connected working teams.",
-          image: "assets/photos/supplied-mixed-supplies.png",
-          alt: "Mixed office technology and operational supplies",
+          title: "Medical, Agriculture & Education",
+          text: "Hospital materials, farm inputs, school desks, and classroom furniture.",
+          image: "assets/photos/supplied-cleaning.png",
+          icon: "medical_services",
+        },
+        {
+          title: "Maintenance, Food & Brokerage",
+          text: "Equipment repair, foodstuffs, beverages, and broader trade brokerage.",
+          image: "assets/photos/supplied-food-packaging.png",
+          icon: "handyman",
         },
       ];
       document.getElementById("category-grid").innerHTML = categories
         .map(
-          ([title, text, image]) =>
-            `<a class="category-card" href="#request"><img src="${image}" alt="${title}" loading="lazy"><div><h3>${title}</h3><p>${text}</p><span class="material-symbols-outlined">chevron_right</span></div></a>`,
-        )
-        .join("");
-      document.getElementById("program-grid").innerHTML = programs
-        .map(
-          ([title, text, image]) =>
-            `<article><img src="${image}" alt="${title}" loading="lazy"><h3>${title}</h3><p>${text}</p></article>`,
+          ({ title, text, image, icon }) => `
+          <a class="category-card" href="#request" data-stagger>
+            <div class="category-media"><img src="${image}" alt="${title}" loading="lazy"></div>
+            <div class="category-body">
+              <span class="category-icon material-symbols-outlined">${icon}</span>
+              <h3>${title}</h3>
+              <p>${text}</p>
+              <span class="category-arrow material-symbols-outlined">arrow_forward</span>
+            </div>
+          </a>`,
         )
         .join("");
 
-      const equipmentTabs = [...document.querySelectorAll(".equipment-tab")];
-      const equipmentStage = document.querySelector(".equipment-stage");
-      const equipmentImage = document.getElementById("equipment-image");
-      const equipmentNumber = document.getElementById("equipment-number");
-      const equipmentLabel = document.getElementById("equipment-label");
-      const equipmentTitle = document.getElementById("equipment-title");
-      const equipmentText = document.getElementById("equipment-text");
-      const reducedMotion = window.matchMedia(
-        "(prefers-reduced-motion: reduce)",
-      ).matches;
-      let activeEquipment = 0;
-      let equipmentTimer;
+      /* ---------- Showcase rotation ---------- */
+      const showcaseItems = [
+        {
+          number: "01",
+          label: "Office",
+          title: "Workspaces that work.",
+          text: "Desks, ergonomic seating, storage, and full fit-out support that turn empty rooms into productive working environments.",
+          image: "assets/scenes/scene-office.svg",
+          alt: "Illustration of an office desk with drawers",
+        },
+        {
+          number: "02",
+          label: "Print",
+          title: "Documents, handled end to end.",
+          text: "Genuine Canon and Epson systems with toner and consumables on call, so paperwork never becomes the bottleneck.",
+          image: "assets/scenes/scene-print.svg",
+          alt: "Illustration of an office printer",
+        },
+        {
+          number: "03",
+          label: "Medical",
+          title: "Supplies clinical teams can rely on.",
+          text: "Hospital materials and equipment for clinics and health facilities, sourced with the urgency patient care demands.",
+          image: "assets/scenes/scene-medical.svg",
+          alt: "Illustration of a laboratory microscope",
+        },
+        {
+          number: "04",
+          label: "School",
+          title: "Classrooms, fully equipped.",
+          text: "School desks, classroom furniture, and the academic essentials that keep a term running from day one.",
+          image: "assets/scenes/scene-school.svg",
+          alt: "Illustration of pens and pencils in a holder",
+        },
+        {
+          number: "05",
+          label: "Field",
+          title: "Geared for the outdoors.",
+          text: "Agriculture inputs, field equipment, and protective workwear for teams whose office is the land itself.",
+          image: "assets/scenes/scene-field.svg",
+          alt: "Illustration of a farm harvester",
+        },
+        {
+          number: "06",
+          label: "Technology",
+          title: "Computing for connected teams.",
+          text: "Laptops, accessories, and document technology from the brand partners in the marquee above.",
+          image: "assets/scenes/scene-technology.svg",
+          alt: "Illustration of an open laptop",
+        },
+      ];
+      showcaseItems.forEach((item) => {
+        const preload = new Image();
+        preload.src = item.image;
+      });
 
-      const showEquipment = (index) => {
-        activeEquipment = index;
-        const item = equipmentItems[index];
-        equipmentStage?.classList.add("is-changing");
+      const showcaseTabs = [...document.querySelectorAll(".showcase-tab")];
+      const showcaseStage = document.querySelector(".showcase-stage");
+      const showcaseImage = document.getElementById("showcase-image");
+      const showcaseNumber = document.getElementById("showcase-number");
+      const showcaseLabel = document.getElementById("showcase-label");
+      const showcaseTitle = document.getElementById("showcase-title");
+      const showcaseText = document.getElementById("showcase-text");
+      let activeShowcase = 0;
+      let showcaseTimer;
+
+      const showShowcase = (index) => {
+        activeShowcase = index;
+        const item = showcaseItems[index];
+        showcaseStage?.classList.add("is-changing");
         window.setTimeout(
           () => {
-            equipmentImage.src = item.image;
-            equipmentImage.alt = item.alt;
-            equipmentNumber.textContent = item.number;
-            equipmentLabel.textContent = item.label;
-            equipmentTitle.textContent = item.title;
-            equipmentText.textContent = item.text;
-            equipmentTabs.forEach((tab, tabIndex) => {
+            showcaseImage.src = item.image;
+            showcaseImage.alt = item.alt;
+            showcaseNumber.textContent = item.number;
+            showcaseLabel.textContent = item.label;
+            showcaseTitle.textContent = item.title;
+            showcaseText.textContent = item.text;
+            showcaseTabs.forEach((tab, tabIndex) => {
               const isActive = tabIndex === index;
               tab.classList.toggle("is-active", isActive);
               tab.setAttribute("aria-selected", String(isActive));
             });
-            equipmentStage?.classList.remove("is-changing");
+            showcaseStage?.classList.remove("is-changing");
           },
-          reducedMotion ? 0 : 180,
+          reducedMotion ? 0 : 200,
         );
       };
 
-      const startEquipmentRotation = () => {
+      const startShowcaseRotation = () => {
         if (reducedMotion) return;
-        window.clearInterval(equipmentTimer);
-        equipmentTimer = window.setInterval(
-          () => showEquipment((activeEquipment + 1) % equipmentItems.length),
-          4800,
+        window.clearInterval(showcaseTimer);
+        showcaseTimer = window.setInterval(
+          () => showShowcase((activeShowcase + 1) % showcaseItems.length),
+          5200,
         );
       };
 
-      equipmentTabs.forEach((tab, index) =>
+      showcaseTabs.forEach((tab, index) =>
         tab.addEventListener("click", () => {
-          showEquipment(index);
-          startEquipmentRotation();
+          showShowcase(index);
+          startShowcaseRotation();
         }),
       );
-      equipmentStage?.addEventListener("mouseenter", () =>
-        window.clearInterval(equipmentTimer),
-      );
-      equipmentStage?.addEventListener("mouseleave", startEquipmentRotation);
-      equipmentStage?.addEventListener("focusin", () =>
-        window.clearInterval(equipmentTimer),
-      );
-      equipmentStage?.addEventListener("focusout", startEquipmentRotation);
-      startEquipmentRotation();
+      showcaseStage?.addEventListener("mouseenter", () => window.clearInterval(showcaseTimer));
+      showcaseStage?.addEventListener("mouseleave", startShowcaseRotation);
+      showcaseStage?.addEventListener("focusin", () => window.clearInterval(showcaseTimer));
+      showcaseStage?.addEventListener("focusout", startShowcaseRotation);
+      startShowcaseRotation();
+
+      /* ---------- Mobile menu ---------- */
+      const menuButton = document.querySelector(".menu-toggle");
+      const mobileMenu = document.querySelector(".mobile-menu");
+      const closeMenu = () => {
+        document.body.classList.remove("menu-open");
+        menuButton?.setAttribute("aria-expanded", "false");
+        menuButton?.setAttribute("aria-label", "Open menu");
+      };
       menuButton?.addEventListener("click", () => {
         const isOpen = document.body.classList.toggle("menu-open");
         menuButton.setAttribute("aria-expanded", String(isOpen));
-        menuButton.setAttribute(
-          "aria-label",
-          isOpen ? "Close menu" : "Open menu",
-        );
+        menuButton.setAttribute("aria-label", isOpen ? "Close menu" : "Open menu");
       });
-      mobileMenu?.querySelectorAll("a").forEach((link) =>
-        link.addEventListener("click", () => {
-          document.body.classList.remove("menu-open");
-          menuButton?.setAttribute("aria-expanded", "false");
-          menuButton?.setAttribute("aria-label", "Open menu");
-        }),
-      );
+      mobileMenu?.querySelectorAll("a").forEach((link) => link.addEventListener("click", closeMenu));
       document.addEventListener("keydown", (event) => {
-        if (
-          event.key === "Escape" &&
-          document.body.classList.contains("menu-open")
-        ) {
-          document.body.classList.remove("menu-open");
-          menuButton?.setAttribute("aria-expanded", "false");
-          menuButton?.setAttribute("aria-label", "Open menu");
+        if (event.key === "Escape" && document.body.classList.contains("menu-open")) {
+          closeMenu();
           menuButton?.focus();
         }
       });
 
+      /* ---------- Search ---------- */
+      const searchForm = document.querySelector(".search-form");
+      const searchStatus = document.querySelector(".search-status");
       searchForm?.addEventListener("submit", (event) => {
         event.preventDefault();
         const query =
-          new FormData(searchForm)
-            .get("search")
-            ?.toString()
-            .trim()
-            .toLowerCase() || "";
+          new FormData(searchForm).get("search")?.toString().trim().toLowerCase() || "";
         const cards = [...document.querySelectorAll(".category-card")];
         cards.forEach((card) => card.classList.remove("search-match"));
 
@@ -931,6 +804,9 @@
           ?.scrollIntoView({ behavior: "smooth" });
       });
 
+      /* ---------- Quote form ---------- */
+      const quoteForm = document.querySelector(".quote-form");
+      const quoteStatus = document.querySelector(".quote-status");
       quoteForm?.addEventListener("submit", (event) => {
         event.preventDefault();
         const data = new FormData(quoteForm);
@@ -946,26 +822,28 @@
         window.location.href = `mailto:msiamutondo@gmail.com?subject=${subject}&body=${body}`;
       });
 
-      document.getElementById("current-year").textContent =
-        new Date().getFullYear();
+      /* ---------- Footer year ---------- */
+      document.getElementById("current-year").textContent = new Date().getFullYear();
 
+      /* ---------- Scroll progress + header elevation ---------- */
       const progressBar = document.querySelector(".scroll-progress");
-      const updateScrollProgress = () => {
-        const maxScroll =
-          document.documentElement.scrollHeight - window.innerHeight;
-        const progress = maxScroll > 0 ? window.scrollY / maxScroll : 0;
-        progressBar.style.transform = `scaleX(${progress})`;
+      const header = document.querySelector(".site-header");
+      const updateScroll = () => {
+        const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+        progressBar.style.transform = `scaleX(${maxScroll > 0 ? window.scrollY / maxScroll : 0})`;
+        header.classList.toggle("is-scrolled", window.scrollY > 8);
       };
-      window.addEventListener("scroll", updateScrollProgress, {
-        passive: true,
-      });
-      updateScrollProgress();
+      window.addEventListener("scroll", updateScroll, { passive: true });
+      updateScroll();
 
-      const revealTargets = document.querySelectorAll(
-        ".benefit-strip, main > .section, .brand-section, .equipment-section, .sector-section, .credentials-section, .faq-section",
-      );
+      /* ---------- Scroll reveal with stagger ---------- */
+      const revealTargets = [...document.querySelectorAll("[data-reveal]")];
+      revealTargets.forEach((target) => {
+        [...target.querySelectorAll("[data-stagger]")].forEach((child, index) => {
+          child.style.setProperty("--stagger-delay", `${index * 90}ms`);
+        });
+      });
       if ("IntersectionObserver" in window && !reducedMotion) {
-        revealTargets.forEach((element) => element.classList.add("reveal"));
         const observer = new IntersectionObserver(
           (entries) => {
             entries.forEach((entry) => {
@@ -975,9 +853,46 @@
               }
             });
           },
-          { threshold: 0.08 },
+          { threshold: 0.12, rootMargin: "0px 0px -40px" },
         );
-        revealTargets.forEach((element) => observer.observe(element));
+        revealTargets.forEach((target) => observer.observe(target));
+      } else {
+        revealTargets.forEach((target) => target.classList.add("is-visible"));
+      }
+
+      /* ---------- Animated counters ---------- */
+      const counters = [...document.querySelectorAll("[data-count]")];
+      const runCounter = (element) => {
+        const target = Number(element.dataset.count);
+        if (reducedMotion) {
+          element.textContent = target;
+          return;
+        }
+        const duration = 1400;
+        const start = performance.now();
+        const tick = (now) => {
+          const progress = Math.min((now - start) / duration, 1);
+          const eased = 1 - Math.pow(1 - progress, 3);
+          element.textContent = Math.round(target * eased);
+          if (progress < 1) requestAnimationFrame(tick);
+        };
+        requestAnimationFrame(tick);
+      };
+      if ("IntersectionObserver" in window) {
+        const counterObserver = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                runCounter(entry.target);
+                counterObserver.unobserve(entry.target);
+              }
+            });
+          },
+          { threshold: 0.6 },
+        );
+        counters.forEach((counter) => counterObserver.observe(counter));
+      } else {
+        counters.forEach((counter) => (counter.textContent = counter.dataset.count));
       }
     </script>
   </body>
