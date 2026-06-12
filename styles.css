@@ -1349,7 +1349,7 @@ p {
 /* ---------- Request ---------- */
 .request-panel {
   display: grid;
-  grid-template-columns: minmax(0, 0.95fr) minmax(380px, 1fr);
+  grid-template-columns: minmax(0, 0.95fr) minmax(0, 1fr);
   gap: clamp(30px, 4vw, 56px);
   padding: clamp(28px, 4.5vw, 60px);
   border-radius: 22px;
@@ -1483,7 +1483,7 @@ p {
 }
 .footer-inner {
   display: grid;
-  grid-template-columns: minmax(280px, 1.3fr) repeat(2, minmax(180px, 0.7fr));
+  grid-template-columns: minmax(0, 1.3fr) repeat(2, minmax(0, 0.7fr));
   align-items: start;
   gap: clamp(30px, 5vw, 72px);
   padding: 58px 0 46px;
