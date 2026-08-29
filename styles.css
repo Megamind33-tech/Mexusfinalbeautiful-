@@ -253,7 +253,7 @@ p {
 }
 .brand-logo {
   display: block;
-  width: clamp(160px, 15vw, 210px);
+  width: clamp(136px, 12.7vw, 178px);
   height: auto;
 }
 .search-form {
@@ -1739,7 +1739,7 @@ p {
     justify-content: center;
   }
   .brand-mobile .brand-logo {
-    width: clamp(132px, 39vw, 160px);
+    width: clamp(112px, 33vw, 136px);
   }
   .mobile-menu {
     position: fixed;
